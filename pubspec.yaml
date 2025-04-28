@@ -1,7 +1,10 @@
 name: app_ritch_txt
-description: "A new Flutter package project."
+description: "A lightweight Flutter widget to easily display rich text with customizable normal and bold parts. Ideal for highlighting important words or phrases in a simple way."
 version: 0.0.1
-homepage:
+homepage: https://github.com/GenieCoderSrc/app_ritch_txt
+repository: https://github.com/GenieCoderSrc/app_ritch_txt
+issue_tracker: https://github.com/GenieCoderSrc/app_ritch_txt/issues
+
 
 environment:
   sdk: ^3.7.2
@@ -22,6 +25,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+example:
+  path: example
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
