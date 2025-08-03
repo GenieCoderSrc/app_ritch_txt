@@ -14,7 +14,9 @@ class AppRichTxt extends StatelessWidget {
           TextSpan(
             text: boldTxt,
             style: TextStyle(
-                fontWeight: FontWeight.bold, color: Colors.blueGrey[900]),
+              fontWeight: FontWeight.bold,
+              color: Colors.blueGrey[900],
+            ),
           ),
         ],
       ),

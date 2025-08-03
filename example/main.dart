@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AppRichTxt Example',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const ExampleHomePage(),
     );
   }
@@ -26,9 +24,7 @@ class ExampleHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('AppRichTxt Demo'),
-      ),
+      appBar: AppBar(title: const Text('AppRichTxt Demo')),
       body: const Center(
         child: AppRichTxt(
           fstTxt: 'This text is normal and ',
