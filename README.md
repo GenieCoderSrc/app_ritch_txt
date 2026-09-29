@@ -17,6 +17,8 @@ A simple Flutter widget for displaying rich text with customizable bold and regu
 Add the following to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   app_ritch_txt: latest
 ```
